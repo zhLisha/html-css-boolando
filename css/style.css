@@ -174,3 +174,53 @@ main{
     font-size: 20px;
 }
 
+/* FOOTER */
+footer{
+    background-color: #1a1a1a;
+    height: 70px;
+}
+
+footer .container{
+    height: 100%;
+}
+
+.footer-content {
+    justify-content: space-between;
+    height: 100%;
+    align-items: center;
+}
+
+.footer-info{
+    padding-top: 5px;
+}
+
+.footer-info h4{
+    font-size: 13px;
+}
+
+.footer-info ul li{
+    line-height: 24px;
+    font-size: 10px;
+    padding-right: 7px;
+}
+
+/* Social Icons */
+.social{
+    text-align: center;
+    line-height: 18px;
+}
+
+.social span{
+    font-size: 10px;
+}
+
+.social-icons a{
+    font-size: 15px;
+    padding: 0 2px
+}
+
+
+
+
+
+
