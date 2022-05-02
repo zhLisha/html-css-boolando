@@ -133,3 +133,44 @@ main{
 .items:hover .hover-image{
     display: block;
 }
+
+/* Discount + heart */
+.bk-red{
+    background-color: red;
+}
+
+.bk-green{
+    background-color: green;
+}
+.discount-text{
+  position: absolute;
+  bottom: 90px;
+  left: 5px;
+}
+
+.sustainability{
+    position: absolute;
+    bottom: 90px;
+    left: 46px;
+}    
+
+.discount-text, .sustainability{
+    font-size: 10px;
+    padding: 4px 8px;
+}
+
+.sustainability.last:last-child{
+    position: absolute;
+    bottom: 90px;
+    left: 5px;
+}
+
+.heart{
+    background-color: white;
+    padding: 2px 7px;
+    position: absolute;
+    right: 5px;
+    top: 6px;
+    font-size: 20px;
+}
+
