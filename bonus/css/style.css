@@ -165,6 +165,7 @@ main{
     left: 5px;
 }
 
+/* heart */
 .heart{
     background-color: white;
     padding: 2px 7px;
@@ -172,6 +173,10 @@ main{
     right: 5px;
     top: 6px;
     font-size: 20px;
+}
+
+.heart-bk:hover .heart{
+    color: red;
 }
 
 /* FOOTER */
@@ -218,3 +223,4 @@ footer .container{
     font-size: 15px;
     padding: 0 2px
 }
+
