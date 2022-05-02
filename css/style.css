@@ -16,9 +16,7 @@ a{
 }
 
 /* DEBUG */
-/* .target, .content .logo, .personal-area{
-    border: 1px solid black;
-} */
+
 
 /* COMMON */
 .container{
@@ -31,6 +29,9 @@ a{
 
 .font-white{
     color: white;
+}
+.font-red{
+    color: red;
 }
 
 img{
@@ -45,6 +46,7 @@ header{
     top: 0;
     left: 0;
     width: 100%;
+    z-index: 1;
 }
 
 header .container{
@@ -81,4 +83,53 @@ header .container{
 
 .personal-area i{
     padding-left: 10px;
+}
+
+/* MAIN */
+main{
+    margin-top: 85px;
+}
+
+.main-container{
+    flex-wrap: wrap;
+}
+
+.items{
+    padding: 0 5px 20px;
+    width: calc(100% / 3);
+    position: relative;
+}
+
+
+/* Info */
+.brand-price{
+    font-size: 10px;
+    line-height: 18px;
+}
+
+.info{
+    position: relative;
+    left: 0;
+    bottom: 8px;
+}
+
+.info h6{
+    line-height: 2px;
+}
+
+.info span:last-child{
+    text-decoration: line-through;
+}
+
+/* Img HOVER */
+.hover-image{
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 0 5px 20px;
+    display: none;
+}
+
+.items:hover .hover-image{
+    display: block;
 }
