@@ -1,0 +1,220 @@
+/* RESET */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Whitney', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+ul{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+/* DEBUG */
+
+
+/* COMMON */
+.container{
+    width: 75%;
+    margin: 0 auto;
+}
+.flex-container{
+    display: flex;
+}
+
+.font-white{
+    color: white;
+}
+.font-red{
+    color: red;
+}
+
+img{
+    width: 100%;
+}
+
+/* HEADER */
+header{
+    background-color: #ff6900;
+    height: 50px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+header .container{
+    height: 100%;
+}
+
+.content{
+    align-items: center;
+    height: 100%;
+    font-size: 12px;
+}
+
+.logo img{
+    width: 100px;
+}
+
+.target{
+    width: 20%;
+}
+
+.personal-area{
+    width: 20%;
+    justify-content: flex-end;
+}
+
+.content .logo{
+    width: 60%;
+    text-align: center;
+}
+
+.target ul li{
+    padding-right: 10px;
+}
+
+.personal-area i{
+    padding-left: 10px;
+}
+
+/* MAIN */
+main{
+    margin-top: 85px;
+}
+
+.main-container{
+    flex-wrap: wrap;
+}
+
+.items{
+    padding: 0 5px 20px;
+    width: calc(100% / 3);
+    position: relative;
+}
+
+
+/* Info */
+.brand-price{
+    font-size: 10px;
+    line-height: 18px;
+}
+
+.info{
+    position: relative;
+    left: 0;
+    bottom: 8px;
+}
+
+.info h6{
+    line-height: 2px;
+}
+
+.info span:last-child{
+    text-decoration: line-through;
+}
+
+/* Img HOVER */
+.hover-image{
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 0 5px 20px;
+    display: none;
+}
+
+.items:hover .hover-image{
+    display: block;
+}
+
+/* Discount + heart */
+.bk-red{
+    background-color: red;
+}
+
+.bk-green{
+    background-color: green;
+}
+.discount-text{
+  position: absolute;
+  bottom: 90px;
+  left: 5px;
+}
+
+.sustainability{
+    position: absolute;
+    bottom: 90px;
+    left: 46px;
+}    
+
+.discount-text, .sustainability{
+    font-size: 10px;
+    padding: 4px 8px;
+}
+
+.sustainability.last:last-child{
+    position: absolute;
+    bottom: 90px;
+    left: 5px;
+}
+
+.heart{
+    background-color: white;
+    padding: 2px 7px;
+    position: absolute;
+    right: 5px;
+    top: 6px;
+    font-size: 20px;
+}
+
+/* FOOTER */
+footer{
+    background-color: #1a1a1a;
+    height: 70px;
+}
+
+footer .container{
+    height: 100%;
+}
+
+.footer-content {
+    justify-content: space-between;
+    height: 100%;
+    align-items: center;
+}
+
+.footer-info{
+    padding-top: 5px;
+}
+
+.footer-info h4{
+    font-size: 13px;
+}
+
+.footer-info ul li{
+    line-height: 24px;
+    font-size: 10px;
+    padding-right: 7px;
+}
+
+/* Social Icons */
+.social{
+    text-align: center;
+    line-height: 18px;
+}
+
+.social span{
+    font-size: 10px;
+}
+
+.social-icons a{
+    font-size: 15px;
+    padding: 0 2px
+}
